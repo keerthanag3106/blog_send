@@ -8,7 +8,7 @@ const router = express.Router();
 
 // console.log("All environment variables in route.js:", process.env); 
 // const jwtSecret = process.env.JWT_SECRET;
-const jwtSecret = "Keer456";
+const jwtSecret = "";//write ur jwt secret
  // Ensure JWT_SECRET is set in your .env file
 // console.log("JWT Secret:", jwtSecret);
 // Middleware to authenticate token
